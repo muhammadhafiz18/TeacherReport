@@ -9,7 +9,7 @@ using System.Text.Json;
 using TeacherReport.Function.Models;
 using Telegram.Bot;
 
-namespace TeacherReport.Function;
+namespace TeacherReport.Function.Functions;
 
 public class TeacherReportHook(
     ILogger<TeacherReportHook> logger,
